@@ -93,15 +93,18 @@ body{
  /* to make it responsive, you target the different areas you want to work on and change it to the size you want it */
 @media screen and (max-width: 600px){
     .title{
-        font-size: 25px;
+        font-size: 23px;
         margin-left: -200px;
         margin-top: 150px;
     }
     #inputField{
-        width: 250px;
+        width: 200px;
+    }
+    #addToDo{
+        width: 100px;
     }
     .to-dos{
-        width: 390px;
+        width: 315px;
     }
     body{
         background: #f5f5f5;
