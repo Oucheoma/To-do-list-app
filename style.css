@@ -12,7 +12,7 @@ body{
     justify-content: center; /*puts all page content at the center */
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: auto;
     width: 200vh;   /* this gives it a specific height and width, changes its position from center */
     
 }
@@ -22,7 +22,7 @@ body{
     color:rgb(35, 35, 148);
     letter-spacing: 1px;
     margin: 30px 0;
-    margin-left: -620px;
+    margin-left:-200px;
 
 }
 .add-list{
@@ -43,7 +43,7 @@ body{
     
 }
 .container{
-    width: 1000px;
+    width: 600px;
 
 }
 
@@ -89,11 +89,13 @@ body{
 
 }
 
+
  /* to make it responsive, you target the different areas you want to work on and change it to the size you want it */
 @media screen and (max-width: 600px){
     .title{
         font-size: 25px;
-        margin-left: -750px;
+        margin-left: -200px;
+        margin-top: 150px;
     }
     #inputField{
         width: 250px;
@@ -102,16 +104,41 @@ body{
         width: 390px;
     }
     body{
-    background: #f5f5f5;
-    display: flex;
-    justify-content: left; /*puts all page content at the center */
-    align-items: left;
-    flex-direction: column;
-/*     height: 50vh;
-    width: 200vh;  */
+        background: #f5f5f5;
+        display: flex;
+        justify-content: center; /*puts all page content at the center */
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 74vh; 
+    }
+    .container{
+        width: 500px;
     }
 }
 
+/* @media screen and (max-width: 800px){
+    .title{
+        font-size: 0px;
+        margin-left: -200px;
+        margin-top: 150px;
+    }
+    #inputField{
+        width: 350px;
+    }
+    body{
+        background: #f5f5f5;
+        display: flex;
+        justify-content: left; /*puts all page content at the center */
+        align-items: left;
+        flex-direction: column;
+        height: auto;
+        width: 20vh; 
+    }
+    .container{
+        width: 500px;
+    }
+} */
 /* .footer {
     width: 700px;
     position: absolute;
