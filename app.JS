@@ -36,3 +36,29 @@ function handleEvent (e){
 
 
 
+// addToDoButton.addEventListener('click', function(){
+//     var paragraph = document.createElement('p');
+//     paragraph.style.cursor ='pointer'
+//     paragraph.classList.add('to-dos') // added the to-dos style to JS
+//     paragraph.innerText = inputField.value;
+//     toDoContainer.appendChild(paragraph);
+//     inputField.value= ' ';
+//     paragraph.addEventListener('click', function(){
+//         paragraph.style.textDecoration ='line-through'
+//         // paragraph.style.cursor ='pointer'
+//     })
+//     paragraph.addEventListener('dblclick', function(){
+//         toDoContainer.removeChild(paragraph)
+//         // paragraph.style.cursor ='pointer'
+//     })
+// })
+
+
+
+
+
+
+
+
+
+
