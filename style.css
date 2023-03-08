@@ -107,8 +107,8 @@ body{
     justify-content: left; /*puts all page content at the center */
     align-items: left;
     flex-direction: column;
-    height: 50vh;
-    width: 200vh; 
+/*     height: 50vh;
+    width: 200vh;  */
     }
 }
 
