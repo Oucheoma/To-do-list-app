@@ -2,7 +2,7 @@
 
 
 Click once to cancel a task
-Double click to cancel a task
+Double click to delete a task
 
 
 To deal with my JS file not working on GitHub pages, i created a folder JS under To do list folder. A edited the script tag link to include the new JS foldercreated.
